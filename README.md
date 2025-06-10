@@ -16,7 +16,7 @@
 - 🛠️ **Tool Integration**: External APIs + custom functions
 
 ## Architecture Overview
-```mermaid
+
 graph LR
     A[User Input] --> B(Design Generator)
     B --> C(Materials Agent)
