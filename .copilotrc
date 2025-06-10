@@ -1,0 +1,14 @@
+[config]
+language = "Python"
+framework = "LangChain, LangGraph"
+libraries = ["OpenAI", "LangChain", "LangGraph", "Pydantic", "Jinja2"]
+goal = """
+Build modular AI agents to process DIY home improvement tasks.
+Agents include: intent extraction, image rendering, plan creation, and shopping list generation.
+Agents are connected in a LangGraph workflow.
+Outputs are returned as JSON using Pydantic schemas.
+Prompts are stored separately as templates.
+"""
+
+[exclude]
+files = ["__pycache__/", "logs/", "tests/"]
